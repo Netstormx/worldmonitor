@@ -79,12 +79,12 @@
     "@types/topojson-client": "^3.1.5",
     "@types/topojson-specification": "^1.0.5",
     "cross-env": "^10.1.0",
-    "esbuild": "^0.27.3",
+    "esbuild": "^0.28.1",
     "h3-js": "^4.4.0",
     "markdownlint-cli2": "^0.21.0",
     "tsx": "^4.21.0",
     "typescript": "^5.7.2",
-    "vite": "^6.0.7",
+    "vite": "^6.4.3",
     "vite-plugin-pwa": "^1.2.0"
   },
   "dependencies": {
@@ -105,8 +105,8 @@
     "convex": "^1.32.0",
     "d3": "^7.9.0",
     "deck.gl": "^9.2.6",
-    "dompurify": "^3.1.7",
-    "fast-xml-parser": "^5.3.7",
+    "dompurify": "^3.4.13",
+    "fast-xml-parser": "^5.7.0",
     "globe.gl": "^2.45.0",
     "hls.js": "^1.6.15",
     "i18next": "^25.8.10",
@@ -121,11 +121,49 @@
     "supercluster": "^8.0.1",
     "telegram": "^2.26.22",
     "topojson-client": "^3.1.0",
-    "ws": "^8.19.0",
+    "ws": "^8.21.0",
     "youtubei.js": "^16.0.1"
   },
   "overrides": {
-    "fast-xml-parser": "^5.3.7",
-    "serialize-javascript": "^7.0.4"
+    "fast-xml-parser": "^5.7.0",
+    "ws": "^8.21.0",
+    "onnxruntime-web": {
+      "protobufjs": "^7.6.5"
+    },
+    "picomatch": "^4.0.4",
+    "micromatch": {
+      "picomatch": "^2.3.2"
+    },
+    "brace-expansion": "^5.0.9",
+    "archiver-utils": {
+      "minimatch": {
+        "brace-expansion": "^2.1.4"
+      }
+    },
+    "filelist": {
+      "minimatch": {
+        "brace-expansion": "^2.1.4"
+      }
+    },
+    "readdir-glob": {
+      "minimatch": {
+        "brace-expansion": "^2.1.4"
+      }
+    },
+    "convex": {
+      "ws": "^8.21.0"
+    },
+    "nanoid": "^3.3.18",
+    "ip-address": "^10.3.1",
+    "sharp": "^0.35.0",
+    "postcss": "^8.5.23",
+    "fast-uri": "^3.1.5",
+    "lodash-es": "^4.18.0",
+    "linkify-it": "^5.0.2",
+    "markdown-it": "^14.2.0",
+    "serialize-javascript": "^7.0.5",
+    "@protobufjs/utf8": "^1.1.1",
+    "@babel/plugin-transform-modules-systemjs": "^7.29.4",
+    "protocol-buffers-schema": "^3.6.1"
   }
 }
