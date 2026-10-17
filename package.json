@@ -84,7 +84,7 @@
     "markdownlint-cli2": "^0.21.0",
     "tsx": "^4.21.0",
     "typescript": "^5.7.2",
-    "vite": "^6.4.3",
+    "vite": "^8.3.4",
     "vite-plugin-pwa": "^1.2.0"
   },
   "dependencies": {
@@ -105,13 +105,13 @@
     "convex": "^1.32.0",
     "d3": "^7.9.0",
     "deck.gl": "^9.2.6",
-    "dompurify": "^3.4.13",
+    "dompurify": "^3.4.16",
     "fast-xml-parser": "^5.7.0",
     "globe.gl": "^2.45.0",
     "hls.js": "^1.6.15",
     "i18next": "^25.8.10",
     "i18next-browser-languagedetector": "^8.2.1",
-    "maplibre-gl": "^5.16.0",
+    "maplibre-gl": "^6.4.1",
     "marked": "^17.0.3",
     "onnxruntime-web": "^1.23.2",
     "papaparse": "^5.5.3",
@@ -132,7 +132,7 @@
     "micromatch": {
       "picomatch": "^2.3.2"
     },
-    "brace-expansion": "^5.0.9",
+    "brace-expansion": "^5.0.12",
     "archiver-utils": {
       "minimatch": {
         "brace-expansion": "^2.1.4"
@@ -152,7 +152,7 @@
       "ws": "^8.21.0"
     },
     "nanoid": "^3.3.18",
-    "js-yaml": "^4.3.1",
+    "js-yaml": "^4.3.2",
     "ip-address": "^10.3.1",
     "sharp": "^0.35.0",
     "postcss": "^8.5.23",
